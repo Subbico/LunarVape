@@ -94,7 +94,7 @@ local function downloadFile(path, func)
   if not isfile(path) and not getgenv().LunarVapeDeveloper then
     local suc, res = pcall(function()
       return game:HttpGet(
-        ('https://raw.githubusercontent.com/AtTheZenith/LunarVape/'
+        ('https://raw.githubusercontent.com/Subbico/LunarVape/'
           .. (isfile 'Lunar Vape/Profiles/commit.txt' and readfile 'Lunar Vape/Profiles/commit.txt' or 'main')
           .. '/'
           .. (string.gsub(path, 'Lunar Vape/', ''))):gsub(' ', '%%20'),
@@ -157,7 +157,7 @@ end
 
 if not getgenv().LunarVapeDeveloper then
   local _, subbed = pcall(function()
-    return game:HttpGet 'https://github.com/AtTheZenith/LunarVape'
+    return game:HttpGet 'https://github.com/Subbico/LunarVape'
   end)
   local commit = subbed:find 'currentOid'
   commit = commit and subbed:sub(commit + 13, commit + 52) or nil

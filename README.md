@@ -13,7 +13,7 @@
 
 ## Contacts
 - [Moon Softworks Discord Server](https://discord/dEKX9XnZwS)
-- [AtTheZenith's Youtube](https://youtube.com/@AtTheZenith)
+- [Subbico's Youtube](https://youtube.com/@Subbico)
 
 ## How to Use
 
@@ -21,7 +21,7 @@
 
 2. Execute the provided loadstring below.
 ```luau
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AtTheZenith/LunarVape/main/Loader.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Subbico/LunarVape/main/Loader.lua", true))()
 ```
 
 3. Wait until a notification appears indicating Lunar Vape has loaded.
@@ -36,11 +36,11 @@ Half of the time its usually the scripting utility at fault, please make sure th
 ### User Issues
 If its not the supposed utility at fault, please try some troubleshooting steps.
 1. Deleting the Lunar Vape folder in your executor's workspace (WITH THE GAME CLOSED).
-2. Making sure you have connection to [the main loadstring](https://raw.githubusercontent.com/AtTheZenith/LunarVape/main/Loader.lua).
+2. Making sure you have connection to [the main loadstring](https://raw.githubusercontent.com/Subbico/LunarVape/main/Loader.lua).
 3. Ensuring no external script is conflicting with vape.
 
 ## Developers & Credits
-[AtTheZenith](https://github.com/AtTheZenith) - Lead maintainer of the LunarVape fork - @atthezenith on Discord
+[Subbico](https://github.com/Subbico) - Lead maintainer of the LunarVape fork - @Subbico on Discord
 <br/>
 [null-wtf](https://github.com/null-wtf) - Maintainer of the LunarVape fork - @null.wtf on Discord
 <br/>
